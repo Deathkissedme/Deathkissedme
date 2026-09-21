@@ -2,16 +2,15 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    # Runs every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+permissions:
+  contents: write
 
+jobs:
+  generate:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,8 +23,8 @@ jobs:
             dist/github-snake-dark.svg
             dist/github-snake-dark.gif?color_palette=dark&animation=slither&bg_color=0d1117&snake_color=39D353
 
-      - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
