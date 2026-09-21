@@ -255,9 +255,9 @@
 
 <div align="center">
 
-## 📈 activity
+## 📈 contribution calendar
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Deathkissedme&bg_color=0d1117&color=53D8FB&line=39D353&point=ffffff&area=true&area_color=53D8FB&hide_border=true" width="95%" />
+<img src="https://ghchart.rshah.org/Deathkissedme" alt="Contribution Calendar" width="100%" />
 
 </div>
 
@@ -277,7 +277,8 @@
 
 <br/>
 
-<img src="https://github-contributor-stats.vercel.app/api?username=Deathkissedme&show_icons=true&theme=chartreuse-dark&bg_color=0d1117&title_color=53D8FB&icon_color=39D353&text_color=c9d1d9&border_color=30363d&hide_border=false" width="95%" />
+<!-- GitHub Trophy for extra flair -->
+<img src="https://github-profile-trophy.vercel.app/?username=Deathkissedme&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10" width="95%" />
 
 </div>
 
